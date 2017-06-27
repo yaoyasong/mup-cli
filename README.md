@@ -9,3 +9,15 @@ support project template
 - shell
 - react & react native
 - etc.
+
+### How to install
+
+```
+npm install -g mup-cli
+```
+
+### How to use
+
+```
+mup-cli new springboot newproject
+```

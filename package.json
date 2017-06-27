@@ -1,34 +1,1 @@
-{
-  "name": "mup-cli",
-  "version": "0.0.1",
-  "description": "to generate source code for app",
-  "bin": {
-    "mup-cli": "./bin/mup-cli"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/yaoyasong/mup-cli.git"
-  },
-  "keywords": [
-    "mup",
-    "cli"
-  ],
-  "author": "yaoyasong <yaoyasong@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yaoyasong/mup-cli/issues"
-  },
-  "homepage": "https://github.com/yaoyasong/mup-cli#readme",
-  "dependencies": {
-    "colors": "^1.1.2",
-    "commander": "^2.10.0",
-    "shelljs": "^0.7.8"
-  }
-}
+{  "name": "mup-cli",  "version": "0.0.1",  "description": "to generate source code for app",  "bin": {    "mup-cli": "./bin/mup-cli"  },  "directories": {    "test": "test"  },  "devDependencies": {},  "scripts": {    "test": "echo \"Error: no test specified\" && exit 1"  },  "repository": {    "type": "git",    "url": "git://github.com/yaoyasong/mup-cli.git"  },  "keywords": [    "mup",    "cli"  ],  "author": "yaoyasong <yaoyasong@gmail.com>",  "license": "MIT",  "bugs": {    "url": "https://github.com/yaoyasong/mup-cli/issues"  },  "homepage": "https://github.com/yaoyasong/mup-cli#readme",  "dependencies": {    "colors": "^1.1.2",    "commander": "^2.10.0",    "shelljs": "^0.7.8"  }}
