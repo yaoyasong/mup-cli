@@ -1,4 +1,4 @@
-package {{packageName}};
+package {{packageName}}.service;
 
 import java.util.List;
 

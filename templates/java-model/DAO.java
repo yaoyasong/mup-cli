@@ -1,4 +1,4 @@
-package {{packageName}};
+package {{packageName}}.persistence;
 
 import java.util.ArrayList;
 import java.util.Date;

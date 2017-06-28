@@ -1,4 +1,4 @@
-package {{packageName}};
+package {{packageName}}.model;
 
 public class {{modelName}} {
   private String id;

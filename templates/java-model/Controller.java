@@ -1,4 +1,4 @@
-package {{packageName}};
+package {{packageName}}.controller;
 
 import java.util.List;
 
