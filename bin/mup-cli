@@ -3,6 +3,7 @@
 const program = require('commander');
 const package = require('../package.json');
 const newProject = require('../lib/new-project');
+const javaModel = require(('../lib/new-java-model'));
 
 program.version(package.version);
 
@@ -10,6 +11,12 @@ program
   .command(newProject.cmd)
   .description(newProject.desc)
   .action(newProject.action);
+
+program
+  .command(javaModel.cmd)
+  .alias(javaModel.alias)
+  .description(javaModel.desc)
+  .action(javaModel.action);
 
 program.parse(process.argv);
 
